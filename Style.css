@@ -1,0 +1,886 @@
+@font-face {
+	font-family: 'AlQalamKhateSunbali';
+	src: local('AlQalamKhateSunbali'), url('./AlQalamKhateSunbali.woff') format('woff');
+}
+
+
+
+.reason{
+    margin-top:30px;
+    color:white;
+}
+.footlist li{
+    display:inline-flex;
+    width:200px;
+}
+.dropdown button{
+    border:1px solid white;
+ 
+}
+button:focus{
+    outline:none;
+    border:none;
+}
+
+
+.footername{
+    padding:30px 0px 0px 0px; 
+    font-size:13px; 
+    color:rgba(255, 255, 255, 0.7); 
+   
+    font-family: 'AlQalamKhateSunbali' !important;
+      
+      
+    
+      
+}
+.card .card-text{
+    color:rgb(182, 178, 178);
+}
+
+.col .card{
+   
+  padding:15px 0px 15px 0px;
+    border-radius: 20px;
+   min-width:200px;
+    margin:10px;
+    overflow:hidden;
+    background-image:linear-gradient(135deg,rgb(26,30,63),rgb(26,30,63),rgb(33,15,25));
+    color:rgb(248, 249, 250);
+    height: 100%;
+    
+   
+}
+
+
+
+.card h4{
+    color:white;
+}
+
+.query{
+  
+     font-size:18px;
+     color:rgba(255, 255, 255, 0.7);
+     margin-top:40px;
+     margin-bottom:20px;
+    
+}
+.queryno{
+    text-decoration:underline; 
+    font-size:18px;
+    color:rgba(255, 255, 255, 0.7);
+    margin-top:40px;
+}
+.footlist li{
+    text-decoration: underline;
+    color:rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    padding:5px;
+}
+#collapse1,#collapse2,#collapse3,#collapse4,#collapse5,#collapse6{
+    background-color:rgb(45,45,45);
+    text-align:left;
+   margin:0px 12px 0px 12px;
+    padding:10px 10px 10px 10px;
+    color:white;
+}
+.collapicon{
+    font-size:45px;
+    padding:10px; 
+    text-align:right; 
+  
+   
+
+}
+.tit{
+    color:white;
+}
+.collaptit{
+    font-size:25px;
+    text-align:left;
+    padding:25px 0px 0px 20px;
+}
+.card .card-footer{
+    border:none;
+}
+.row{
+    row-gap: 10px;
+    
+}
+.cardimg{
+    text-align:right;
+     width:60px;
+      height:60px;
+     
+}
+
+
+.collapse-button {
+    background-color: rgb(45, 45, 45); /* Default background color */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    color:white;
+    display:inline-flex;
+    justify-content: space-between;
+    width:100%;
+    
+    
+    
+}
+
+.collapse-button:hover {
+    background-color: rgb(60, 60, 60); /* Change to your desired hover color */
+}
+
+
+
+
+   
+
+
+
+
+
+
+
+.btn{
+    width:100%;
+    
+}
+.imghead{
+    height:600px;
+
+}
+
+  .form-floating label {
+    color: rgb(7, 6, 6); 
+  }
+
+
+#controller{
+    background-color:black;
+    border-radius:30px;
+    height:100px;
+    width:30px;
+}
+.image {
+    position: relative;
+   
+    overflow: hidden;
+    background: black;
+}
+
+
+
+
+.background-overlay {
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/4d2c5849-b306-4884-9036-6211f7ee0178/web/IN-en-20240930-TRIFECTA-perspective_1e1ca6cd-9e2d-4e9d-9e4b-ba0c2d3a0e31_large.jpg');
+    background-size: cover; 
+    background-position: center;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.2;
+    z-index: 1;
+   
+}
+.subdiv2{
+    margin-top:70px;
+}
+.footext{
+    color:white;
+}
+.content {
+    position: relative;
+    z-index: 2;
+    
+   
+   
+}
+@media only screen and (max-width: 500px) {
+    .headcont {
+        font-size: 25px;
+        color:white;
+        margin:0;
+        padding:0;
+    }
+    .collaptit{
+        font-size:20px;
+    }
+    .collapicon{
+        font-size:20px;
+        padding-top:20px;
+    }
+   
+    .subhead{
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom:10px;
+        color:white;
+    }
+    .subhead2{
+        font-size: 15px;
+        font-weight: 300;
+        margin:0px;
+        padding:0px;
+        color:white;
+    }
+    .subdiv .row{
+        max-width:700px;
+        padding:20px;
+        margin:10px 10px 10px 10px;
+        border-radius:20px;
+    
+       
+    }
+    
+    .dropdown .btnslide{
+        width:400px;
+        margin:0px;
+    }
+    .language{
+        display:none;
+    }
+    #floatingdiv {
+        position: fixed;
+        bottom: 0px;
+       margin:0;
+        width: 88%;
+        z-index: 3;
+        height: 60px;
+        border: none;
+        border-radius:10px;
+        background-image:linear-gradient(rgba(12, 12, 12, 0.103),rgb(12, 12, 12),rgb(12, 12, 12),rgb(12, 12, 12),rgb(12, 12, 12),rgb(12, 12, 12));
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    
+    }
+    #floatingButton{
+        width:90%;
+        color:white;
+     
+        border-radius: 5px;
+       border:none;
+        background-color:rgb(229,9,20);
+        font-weight:500;
+     margin-top:10px;
+     margin-bottom:10px;
+       margin-left:3%;
+       margin-right:9%;
+       
+        height:40px;
+        overflow:hidden;
+        font-size: 100%;
+    }
+    .form-floating .startbut{
+        width:60%;
+        color:white;
+     
+     
+        background-color:rgb(229,9,20);
+        font-weight:900;
+         margin-left:5px;
+        margin-bottom:30px ;
+        margin-top:25px;
+        max-width:250px;
+        height:40px;
+        overflow:hidden;
+        font-size: 90%;
+    }
+    .form-floating .startbut1{
+        width:50%;
+        color:white;
+     
+     
+        background-color:rgb(229,9,20);
+        font-weight:900;
+      margin-right:180px;
+        margin-bottom:30px ;
+        margin-top:15px;
+        max-width:250px;
+        height:50px;
+        overflow:hidden;
+        font-size: 90%;
+    }
+    #floatingInput{
+        width:100%;
+        overflow:hidden;
+        background-color: rgba(37, 37, 37, 0.74);
+    }
+    #place{
+        padding:15px 0px 0px 30px;
+        color:white;
+    }
+    #place1{
+        padding:15px 0px 0px 20px;
+        color:white;
+    }
+    
+    .maindiv{
+        margin-left:20px;
+        margin-right:20px;
+       
+    }
+    .para{
+        font-size: 20px;
+        padding:15px;
+    }
+    .logo{
+        width:150px;
+        margin-left: 10%;
+    }
+    span .btn2{
+        max-width:70px;
+        background-color:rgb(229,9,20);
+        color:white;
+        font-weight:bold;
+        margin-bottom:10px;
+        overflow:hidden;
+        margin-top: 20px;
+       
+    }
+    .doublebutton{
+      margin-right: 70%; 
+    }
+    .doublebutton1{
+        margin-right: 74%; 
+      }
+    .dropdown .btnslide{
+        width:90%;
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom:10px;
+        margin-right:5%;
+        margin-left:5%;
+        padding:10px;
+        text-align:right;
+        overflow:hidden; 
+        border:0.5px solid rgb(158, 157, 157);
+        background-color:rgba(29, 28, 28, 0.959);
+        color:white;
+    }
+   
+    .dropdown .btnfoot{
+        max-width:60px;
+        font-size: 15px;
+     margin-top: 20px;
+        margin-right:7px;
+       
+        margin-bottom:10px;
+        overflow:hidden; 
+        color:white;
+        background-color: rgba(36, 35, 35, 0.582);
+        border:0.5px solid rgb(85, 83, 83)
+    }
+    .background-overlay{
+        margin:0px;
+        padding:0px;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 900px) {
+    .headcont {
+        font-size: 30px;
+        color:white;
+    }
+   
+    .subhead2{
+        font-size: 13px;
+        font-weight: 400;
+        margin:0px;
+        padding:0px;
+        color:white;
+    }
+    .subhead{
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom:20px;
+        color:white;
+    }
+    .subdiv .row{
+        max-width:700px;
+        padding:20px;
+        margin:30px 10px 10px 10px;
+        border-radius:20px;
+    
+       
+    }
+    .form-floating .startbut{
+        width:80%;
+        color:white;
+   
+        background-color:rgb(229,9,20);
+        font-weight:500;
+        margin-left: 5px;
+        margin-bottom:30px ;
+        margin-top:25px;
+        max-width:250px;
+        height:57px;
+        overflow:hidden;
+        font-size: 160%;
+    }
+    .form-floating .startbut1,.form-floating .startbut1{
+        width:80%;
+        color:white;
+   
+        background-color:rgb(229,9,20);
+        font-weight:500;
+        
+        margin-bottom:30px ;
+        margin-top:25px;
+        max-width:250px;
+        height:57px;
+        overflow:hidden;
+        font-size: 160%;
+    }
+    #floatingInput{
+        width:80%;
+        overflow:hidden;
+        background-color: rgba(37, 37, 37, 0.74);
+    }
+    #place{
+        padding:15px 0px 0px 80px;
+        color:white;
+    }
+    #place1{
+        padding:15px 0px 0px 90px;
+        color:white;
+    }
+  
+    .maindiv{
+        margin-left:50px;
+        margin-right:50px;
+    }
+    .logo{
+        width:150px;
+        margin-left: 10%;
+    }
+    span .btn2{
+        max-width:70px;
+        background-color:rgb(229,9,20);
+        color:white;
+        font-weight:bold;
+        margin-bottom:10px;
+        overflow:hidden;
+        margin-top:20px;
+       
+    }
+    .dropdown .btnslide{
+        width:130px;
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom:10px;
+        margin-right:0px;
+        overflow:hidden; 
+        border:0.5px solid rgb(85, 83, 83);
+        background-color:rgba(29, 28, 28, 0.959);
+        color:white;
+    }
+    .para{
+        font-size: 20px;
+        padding:15px;
+    }
+    .dropdown .btnfoot{
+        max-width:130px;
+        font-size: 15px;
+     margin-top:20px;
+        margin-right:7px;
+       
+        margin-bottom:10px;
+        overflow:hidden; 
+        color:white;
+        background-color: rgba(36, 35, 35, 0.582);
+        border:0.5px solid rgb(85, 83, 83)
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .headcont {
+        font-size: 40px;
+        color:white;
+    }
+    .subhead2{
+        font-size: 15px;
+        font-weight: 400;
+        margin:0px;
+        padding:0px;
+        color:white;
+    }
+    .subhead{
+        font-size: 18px;
+        font-weight: 500;
+       margin-bottom:25px;
+        color:white;
+    }
+    .subdiv .row{
+        max-width:700px;
+        padding:20px;
+        margin:40px 10px 10px 10px;
+        border-radius:20px;
+    
+       
+    }
+  
+    .form-floating .startbut,.form-floating .startbut1{
+        width:35%;
+        color:white;
+        background-color:rgb(229,9,20);
+        font-weight:700;
+        margin-left: 5px;
+        margin-bottom:30px ;
+        margin-top:25px;
+        max-width:250px;
+        height:57px;
+        overflow:hidden;
+        font-size: 160%;
+    }
+    #floatingInput{
+        width:60%;
+        background-color: rgba(37, 37, 37, 0.74);
+        
+    }
+    #place{
+        padding:40px 0px 0px 30px;
+        color:white;
+    }
+    #place1{
+        padding:40px 0px 0px 80px;
+        color:white;
+    }
+    .maindiv{
+        margin-left:100px;
+        margin-right:100px;
+    }
+    .logo{
+        width:150px;
+        margin-left: 10%;
+    }
+    #floatingdiv,#floatingButton{
+        display:none;
+    }
+    span .btn2{
+        max-width:70px;
+        background-color:rgb(229,9,20);
+        color:white;
+        font-weight:bold;
+        margin-bottom:10px;
+        overflow:hidden;
+        margin-top:20px;
+    }
+    .dropdown .btnslide{
+        max-width:130px;
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom:10px;
+        margin-right:30px;
+        overflow:hidden; 
+        border:0.5px solid rgb(85, 83, 83);
+        background-color:rgba(29, 28, 28, 0.959);
+        color:white;
+    }
+    .para{
+        font-size: 23px;
+        padding:15px;
+    }
+    .dropdown .btnfoot{
+        max-width:130px;
+        font-size: 15px;
+        margin-left:150px;
+        margin-right:7px;
+        margin-top:20px;
+        margin-bottom:10px;
+        overflow:hidden; 
+        color:white;
+        background-color: rgba(36, 35, 35, 0.582);
+        border:0.5px solid rgb(85, 83, 83)
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .headcont {
+        font-size: 55px;
+        color:white;
+    }
+    .subhead2{
+        font-size: 16px;
+        font-weight: 400;
+        margin:0px;
+        padding:0px;
+        color:white;
+    }
+    .subhead{
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom:30px;
+        color:white;
+    }
+    .subdiv .row{
+        max-width:700px;
+        padding:20px;
+        margin:60px 10px 50px 10px;
+        border-radius:20px;
+    
+       
+    }
+
+   
+    .form-floating .startbut,.form-floating .startbut1{
+        width:35%;
+        color:white;
+   
+        background-color:rgb(229,9,20);
+        font-weight:900;
+        margin-left: 5px;
+        margin-bottom:30px ;
+       margin-top:20px;
+        max-width:250px;
+        height:57px;
+        overflow:hidden;
+        font-size: 160%;
+    }
+   
+    #floatingInput{
+        width:60%;
+        background-color: rgba(37, 37, 37, 0.74);
+        color:white;
+        margin:0px;
+        padding:0px
+       
+    }
+    #place{
+        padding:40px 0px 0px 40px;
+        color:white;
+    }
+    #place1{
+        padding:40px 0px 0px 90px;
+        color:white;
+    }
+    .maindiv{
+        margin-left:150px;
+        margin-right:150px;
+    }
+    .logo{
+        width:200px;
+        margin-left: 20%;
+    }
+    span .btn2{
+        max-width:70px;
+        background-color:rgb(229,9,20);
+        color:white;
+        font-weight:bold;
+        margin-bottom:10px;
+        overflow:hidden;
+        margin-top:40px;
+    }
+    .para{
+        font-size: 23px;
+        padding:15px;
+    }
+    .dropdown .btnslide{
+        max-width:130px;
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom:10px;
+        margin-right:30px;
+        overflow:hidden; 
+        border:0.5px solid rgb(85, 83, 83);
+        background-color:rgba(29, 28, 28, 0.959);
+        color:white;
+    }
+    #floatingdiv,#floatingButton{
+        display:none;
+    }
+    .dropdown .btnfoot{
+        max-width:130px;
+        font-size: 15px;
+        margin-left:270px;
+        margin-right:7px;
+        margin-top:40px;
+        margin-bottom:10px;
+        overflow:hidden; 
+        color:white;
+        background-color: rgba(36, 35, 35, 0.582);
+        border:0.5px solid rgb(85, 83, 83)
+    }
+    
+}
+.dropdown .btnfoot1{
+    max-width:130px;
+    font-size: 15px;
+ 
+    margin-right:7px;
+    margin-top:20px;
+    margin-bottom:10px;
+    overflow:hidden; 
+    color:white;
+    background-color: rgba(36, 35, 35, 0.582);
+    border:0.5px solid rgb(85, 83, 83)
+}
+
+
+.movslider{
+    margin:50px 0px 50px 0px;
+}
+
+
+
+
+
+.cardbox{
+    margin:50px 0px 50px 0px;
+}
+.questions{
+    margin:80px 0px 50px 0px;
+}
+
+
+
+
+#sliderdemo{
+    padding:0px 60px 0px 60px;
+}
+img{
+    width:100%;
+}
+.total{
+    background-image:linear-gradient(rgb(5, 26, 85),rgb(12, 12, 12),rgb(12, 12, 12),rgb(12, 12, 12),rgb(12, 12, 12));
+padding-bottom:30px;
+}
+
+
+
+.slidecontrol{
+    width:100%;
+  
+    overflow: hidden;
+    position: relative;
+}
+.slides .imgset{
+    width: 100%; 
+    padding:5px;
+    background-color:rgb(12, 12, 12);
+     border:none;
+     border-radius:20px;
+}
+body {
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.slider {
+    width: 93%;
+    margin-left:3%;
+  
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-track {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slides {
+    flex: 0 0 auto;
+    margin: 0 0px;
+    padding:5px;
+    position: relative;
+    transition: transform 0.4s ease; 
+
+}
+
+.slides img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+.imgcard {
+    position: absolute; 
+    bottom:4%;
+    left: 12%; 
+    transform: translateX(-50%); 
+    font-size: 700%;
+    color: white; 
+    font-weight: bold;
+    z-index: 2; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     background-color: black;
+    -webkit-text-stroke:2px white;
+}
+
+.imgcard::before {
+    content: ""; 
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.slides:hover {
+  
+    transform: scale(1.05);
+} 
+
+
+.navigation {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-button {
+    background-color: rgb(45, 45, 45);
+    border: none;
+    z-index:2;
+    height:150px;
+    width:30px;
+    padding:5px;
+    color: #fff;
+   
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Media query for screens below 500px */
+@media (max-width: 500px) {
+    .slides {
+        width: calc(50% - 0px); /* Adjust width to show 2 slides */
+    }
+    .slider {
+        width: 85%;
+        margin-left:7%;
+      
+        overflow: hidden;
+        position: relative;
+    }
+
+.imgcard {
+    position: absolute; 
+    bottom:4%;
+    left: 12%; 
+    transform: translateX(-50%); 
+    font-size: 400%;
+    color: white; 
+    font-weight: bold;
+    z-index: 2; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     background-color: black;
+    -webkit-text-stroke:2px white;
+}
+}
